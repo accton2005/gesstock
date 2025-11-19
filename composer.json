@@ -1,0 +1,29 @@
+{
+    "name": "admin/ges-stock",
+    "description": "Application de gestion de magasin pour administration publique",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": "^8.0",
+        "laravel/framework": "^9.0",
+        "laravel/tinker": "^2.7",
+        "barryvdh/laravel-dompdf": "^1.0",
+        "maatwebsite/excel": "^3.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Database\\Factories\\": "database/factories/",
+            "Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "cweagans/composer-patches": true
+        }
+    }
+}
